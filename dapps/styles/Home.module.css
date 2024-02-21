@@ -65,6 +65,7 @@
 }
 
 .card {
+  display: flex;
   margin: 1rem;
   padding: 1.5rem;
   text-align: left;
@@ -73,7 +74,13 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 350px;
+  /* max-width: 1080px; */
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 1080px;
+  height: 600px;
 }
 
 .card:hover,

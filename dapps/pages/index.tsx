@@ -19,7 +19,7 @@ const Home: NextPage = () => {
         <ConnectButton />
 
         <h1 className={styles.title}>
-          Welcome to <a href="">Makka Pakka Land</a>
+          Welcome to <a href="https://github.com/makkapakkaLanuch/docs">Makka Pakka Land</a>
         </h1>
 
         {/* <p className={styles.description}>
@@ -28,9 +28,10 @@ const Home: NextPage = () => {
         </p> */}
 
         <div className={styles.grid}>
-          <a className={styles.card} href="https://github.com/makkapakkaLanuch/docs">
-            <h2>MakkaPakka Land Documentation &rarr;</h2>
-            {/* <p>Learn how to customize your wallet connection flow.</p> */}
+          <a className={styles.card} >
+            <h1> The $GUAD ecosystem is continuing to be built</h1>
+            <br></br>
+            <h2>Launch immediately.</h2>
           </a>
           {/* <a className={styles.card} href="https://rainbowkit.com">
             <h2>RainbowKit Documentation &rarr;</h2>
